@@ -21,7 +21,7 @@ export default function RootLayout({
           <div className="container mx-auto py-12 px-4 m-5">
             <h1 className="md:text-6xl font-bold text-center ">포켓몬 도감</h1>
             <p className="text-center mt-4 text-xl">
-              당신의 포켓몬 여행을 시작하세요!
+              포켓몬 여행을 시작하세요!
             </p>
           </div>
         </header>
