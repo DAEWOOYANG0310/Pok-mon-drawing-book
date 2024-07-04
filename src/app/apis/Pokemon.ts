@@ -3,3 +3,6 @@ export const detailFetch = async (id: string) => {
   const res = await fetch(`${apiUrl}/api/pokemons/${id}`);
   return res.json();
 };
+
+
+  
