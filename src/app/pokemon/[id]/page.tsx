@@ -43,7 +43,7 @@ const DetailPage = async ({ params }: { params: { id: string } }) => {
         <div className="mb-6">
           <h3 className="text-xl font-semibold mb-2">기술</h3>
           <div className="grid grid-cols-2 gap-2">
-            {pokemon.moves.slice(0, 8).map((move) => (
+            {pokemon.moves.slice(0, 20).map((move) => (
               <div
                 key={move.move.name}
                 className="bg-blue-100 text-blue-800 text-sm font-medium px-2 py-1 rounded"
@@ -52,7 +52,9 @@ const DetailPage = async ({ params }: { params: { id: string } }) => {
               </div>
             ))}
             <Link href={"/"}>
-              <button className="">뒤로가기</button>
+              <button className="bg-blue-800 text-blue-100 text-sm font-medium px-2 py-1 rounded  ">
+                뒤로가기
+              </button>
             </Link>
           </div>
         </div>
